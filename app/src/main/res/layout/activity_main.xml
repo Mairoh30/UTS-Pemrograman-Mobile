@@ -1,0 +1,44 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan panjang sisi kubus (cm)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/sideLengthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang sisi"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/volumeResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume: "
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/surfaceAreaResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luas Permukaan: "
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
